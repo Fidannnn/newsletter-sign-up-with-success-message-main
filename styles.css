@@ -205,25 +205,25 @@ li {
   }
 }
 
-.desktop_image {
+#desktop_image {
   max-width: 50%;
   height: auto;
   display: block;
 }
 @media (max-width: 480px) {
-  .desktop_image {
+  #desktop_image {
     display: none;
   }
 }
 
-.mobile_image {
+#mobile_image {
   max-width: 100%;
   height: auto;
   display: none;
   order: -1;
 }
 @media (max-width: 480px) {
-  .mobile_image {
+  #mobile_image {
     display: block;
   }
 }
